@@ -1,0 +1,327 @@
+initialization
+Orignal stack =>
+Special stack =>
+s.getmin() = -1
+s.top()    = -1
+
+
+after pushing -27 in the special stack
+Orignal stack => -27
+Special stack => -27
+s.getmin() = -27
+s.top()    = -27
+
+
+after poping -1 from the special stack
+Orignal stack =>
+Special stack =>
+s.getmin() = -1
+s.top()    = -1
+
+
+after pushing -74 in the special stack
+Orignal stack => -74
+Special stack => -74
+s.getmin() = -74
+s.top()    = -74
+
+
+after poping -1 from the special stack
+Orignal stack =>
+Special stack =>
+s.getmin() = -1
+s.top()    = -1
+
+
+after pushing 75 in the special stack
+Orignal stack => 75
+Special stack => 75
+s.getmin() = 75
+s.top()    = 75
+
+
+after pushing 71 in the special stack
+Orignal stack => 71  75
+Special stack => 67  75
+s.getmin() = 71
+s.top()    = 71
+
+
+after pushing 72 in the special stack
+Orignal stack => 72  71  75
+Special stack => 72  67  75
+s.getmin() = 71
+s.top()    = 72
+
+
+after poping 71 from the special stack
+Orignal stack => 71  75
+Special stack => 67  75
+s.getmin() = 71
+s.top()    = 71
+
+
+after pushing -34 in the special stack
+Orignal stack => -34  71  75
+Special stack => -139  67  75
+s.getmin() = -34
+s.top()    = -34
+
+
+after pushing -32 in the special stack
+Orignal stack => -32  -34  71  75
+Special stack => -32  -139  67  75
+s.getmin() = -34
+s.top()    = -32
+
+
+after pushing -96 in the special stack
+Orignal stack => -96  -32  -34  71  75
+Special stack => -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -96
+
+
+after pushing -57 in the special stack
+Orignal stack => -57  -96  -32  -34  71  75
+Special stack => -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -57
+
+
+after pushing 28 in the special stack
+Orignal stack => 28  -57  -96  -32  -34  71  75
+Special stack => 28  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 28
+
+
+after poping -57 from the special stack
+Orignal stack => -57  -96  -32  -34  71  75
+Special stack => -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -57
+
+
+after pushing 29 in the special stack
+Orignal stack => 29  -57  -96  -32  -34  71  75
+Special stack => 29  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 29
+
+
+after poping -57 from the special stack
+Orignal stack => -57  -96  -32  -34  71  75
+Special stack => -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -57
+
+
+after pushing -61 in the special stack
+Orignal stack => -61  -57  -96  -32  -34  71  75
+Special stack => -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -61
+
+
+after pushing -43 in the special stack
+Orignal stack => -43  -61  -57  -96  -32  -34  71  75
+Special stack => -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -43
+
+
+after pushing 71 in the special stack
+Orignal stack => 71  -43  -61  -57  -96  -32  -34  71  75
+Special stack => 71  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 71
+
+
+after poping -43 from the special stack
+Orignal stack => -43  -61  -57  -96  -32  -34  71  75
+Special stack => -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -43
+
+
+after pushing -24 in the special stack
+Orignal stack => -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -24
+
+
+after pushing 67 in the special stack
+Orignal stack => 67  -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => 67  -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 67
+
+
+after pushing 31 in the special stack
+Orignal stack => 31  67  -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => 31  67  -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 31
+
+
+after poping 67 from the special stack
+Orignal stack => 67  -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => 67  -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = 67
+
+
+after poping -24 from the special stack
+Orignal stack => -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -24
+
+
+after pushing -60 in the special stack
+Orignal stack => -60  -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => -60  -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -60
+
+
+after poping -24 from the special stack
+Orignal stack => -24  -43  -61  -57  -96  -32  -34  71  75
+Special stack => -24  -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -24
+
+
+after poping -43 from the special stack
+Orignal stack => -43  -61  -57  -96  -32  -34  71  75
+Special stack => -43  -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -43
+
+
+after poping -61 from the special stack
+Orignal stack => -61  -57  -96  -32  -34  71  75
+Special stack => -61  -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -61
+
+
+after poping -57 from the special stack
+Orignal stack => -57  -96  -32  -34  71  75
+Special stack => -57  -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -57
+
+
+after poping -96 from the special stack
+Orignal stack => -96  -32  -34  71  75
+Special stack => -158  -32  -139  67  75
+s.getmin() = -96
+s.top()    = -96
+
+
+after poping -32 from the special stack
+Orignal stack => -32  -34  71  75
+Special stack => -32  -139  67  75
+s.getmin() = -34
+s.top()    = -32
+
+
+after poping -34 from the special stack
+Orignal stack => -34  71  75
+Special stack => -139  67  75
+s.getmin() = -34
+s.top()    = -34
+
+
+after pushing 60 in the special stack
+Orignal stack => 60  -34  71  75
+Special stack => 60  -139  67  75
+s.getmin() = -34
+s.top()    = 60
+
+
+after poping -34 from the special stack
+Orignal stack => -34  71  75
+Special stack => -139  67  75
+s.getmin() = -34
+s.top()    = -34
+
+
+after poping 71 from the special stack
+Orignal stack => 71  75
+Special stack => 67  75
+s.getmin() = 71
+s.top()    = 71
+
+
+after poping 75 from the special stack
+Orignal stack => 75
+Special stack => 75
+s.getmin() = 75
+s.top()    = 75
+
+
+after pushing -13 in the special stack
+Orignal stack => -13  75
+Special stack => -101  75
+s.getmin() = -13
+s.top()    = -13
+
+
+after pushing -33 in the special stack
+Orignal stack => -33  -13  75
+Special stack => -53  -101  75
+s.getmin() = -33
+s.top()    = -33
+
+
+after poping -13 from the special stack
+Orignal stack => -13  75
+Special stack => -101  75
+s.getmin() = -13
+s.top()    = -13
+
+
+after poping 75 from the special stack
+Orignal stack => 75
+Special stack => 75
+s.getmin() = 75
+s.top()    = 75
+
+
+after poping -1 from the special stack
+Orignal stack =>
+Special stack =>
+s.getmin() = -1
+s.top()    = -1
+
+
+after pushing -38 in the special stack
+Orignal stack => -38
+Special stack => -38
+s.getmin() = -38
+s.top()    = -38
+
+
+after pushing 66 in the special stack
+Orignal stack => 66  -38
+Special stack => 66  -38
+s.getmin() = -38
+s.top()    = 66
+
+
+after pushing -38 in the special stack
+Orignal stack => -38  66  -38
+Special stack => -38  66  -38
+s.getmin() = -38
+s.top()    = -38
+
+
+after poping 66 from the special stack
+Orignal stack => 66  -38
+Special stack => 66  -38
+s.getmin() = -38
+s.top()    = 66
